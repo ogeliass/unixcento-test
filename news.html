@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>News – UNIXCENTO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="News e aggiornamenti per studenti UNIPA: avvisi UniPa, comunicazioni ERSU Palermo e attività di uniXcento."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-inner">
+        <button
+          class="menu-button"
+          id="menuButton"
+          aria-label="Apri menu"
+          aria-controls="nav"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <a href="index.html" class="logo">
+          <span class="logo-text"> UNI<span class="logo-x">X</span>CENTO </span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="chi-siamo.html" class="nav-link">Chi Siamo</a>
+
+          <div class="nav-dropdown">
+            <a
+              href="news.html"
+              class="nav-link nav-dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              News <span aria-hidden="true">▾</span>
+            </a>
+            <div class="nav-dropdown-menu" role="menu" aria-label="Sezioni news">
+              <a href="news.html" class="nav-link" role="menuitem">Tutte</a>
+              <a href="news-unipa.html" class="nav-link" role="menuitem">UniPa</a>
+              <a href="news-ersu.html" class="nav-link" role="menuitem">ERSU</a>
+            </div>
+          </div>
+
+          <a href="drive.html" class="nav-link">Drive</a>
+          <a href="guide.html" class="nav-link">Guide</a>
+          <a href="modulistica.html" class="nav-link">Modulistica</a>
+          <a href="unisciti.html" class="nav-link">Unisciti</a>
+          <a href="contatti.html" class="nav-link">Contatti</a>
+        </nav>
+
+        <a href="unisciti.html" class="btn-pill btn-pill-outline header-cta">
+          Tesseramento 2025
+        </a>
+      </div>
+    </header>
+
+
+    <main>
+      <!-- INTRO -->
+      <section class="section section-alt">
+        <div class="container">
+          <header class="section-header">
+            <h1 class="section-title">News</h1>
+            <p class="section-subtitle">
+              Avvisi utili agli studenti: comunicazioni ufficiali UniPa, news ERSU
+              Palermo e aggiornamenti dell’associazione.
+            </p>
+          </header>
+
+          <div class="cards-grid">
+            <article class="news-card">
+              <div class="news-image"><span class="news-chip">UNIPA</span></div>
+              <div class="news-content">
+                <h2 class="news-title">News UniPa</h2>
+                <p class="news-text">
+                  Avvisi ufficiali dell’Università: bandi, scadenze, segreterie e comunicazioni.
+                </p>
+                <div class="news-footer">
+                  <a href="news-unipa.html" class="btn-link">Apri →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image"><span class="news-chip">ERSU</span></div>
+              <div class="news-content">
+                <h2 class="news-title">News ERSU Palermo</h2>
+                <p class="news-text">
+                  Borse di studio, graduatorie, mense, alloggi e servizi per il diritto allo studio.
+                </p>
+                <div class="news-footer">
+                  <a href="news-ersu.html" class="btn-link">Apri →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image"><span class="news-chip">uniXcento</span></div>
+              <div class="news-content">
+                <h2 class="news-title">Aggiornamenti uniXcento</h2>
+                <p class="news-text">
+                  Assemblee, iniziative, eventi e comunicazioni interne dell’associazione.
+                </p>
+                <div class="news-footer">
+                  <a href="contatti.html" class="btn-link">Segnalaci una news</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEED "TUTTE" -->
+      <section class="section">
+        <div class="container">
+          <header class="section-header section-header-row">
+            <div>
+              <h2 class="section-title">Tutte le news (feed)</h2>
+              <p class="section-subtitle">
+                Se il tuo hosting supporta PHP, i feed qui sotto vengono caricati automaticamente.
+              </p>
+            </div>
+          </header>
+
+          <div class="contact-box" style="margin-bottom: 14px;">
+            <h3>UniPa</h3>
+            <p class="contact-time" style="margin-top: 6px;">
+              Se non vedi nulla, apri la pagina dedicata.
+              <a href="news-unipa.html" class="btn-link">Vai a News UniPa</a>
+            </p>
+          </div>
+          <iframe
+            src="unipa-news.php"
+            style="width: 100%; border: 0; min-height: 520px"
+            loading="lazy"
+            title="News UniPa"
+          ></iframe>
+
+          <div class="contact-box" style="margin: 18px 0 14px;">
+            <h3>ERSU Palermo</h3>
+            <p class="contact-time" style="margin-top: 6px;">
+              Se non vedi nulla, apri la pagina dedicata.
+              <a href="news-ersu.html" class="btn-link">Vai a News ERSU</a>
+            </p>
+          </div>
+          <iframe
+            src="ersu-news.php"
+            style="width: 100%; border: 0; min-height: 520px"
+            loading="lazy"
+            title="News ERSU Palermo"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="yearSpan"></span> UNIXCENTO. Tutti i diritti riservati.</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="contatti.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
