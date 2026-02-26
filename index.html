@@ -1,234 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <title>UNIXCENTO – Associazione Studentesca UNIPA</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="UNIXCENTO è un'associazione studentesca dell'Università degli Studi di Palermo. Rappresentanza, servizi e community per gli studenti UNIPA."
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <title>UNIPERCENTO – Associazione Studentesca UNIPA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Associazione studentesca UNIPA: rappresentanza, supporto, community e materiali per gli studenti di Palermo.">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-
-    <!-- HEADER -->
+<body>
     <header class="header">
-      <div class="container header-inner">
-        <button
-          class="menu-button"
-          id="menuButton"
-          aria-label="Apri menu"
-          aria-controls="nav"
-          aria-expanded="false"
-        >
-          ☰
-        </button>
+        <div class="container header-inner">
+            <button class="menu-button" id="menuButton" aria-label="Apri menu" aria-controls="nav" aria-expanded="false">☰</button>
 
-        <a href="index.html" class="logo">
-          <span class="logo-text"> UNI<span class="logo-x">X</span>CENTO </span>
-        </a>
-
-        <nav class="nav" id="nav">
-          <a href="index.html" class="nav-link">Home</a>
-          <a href="chi-siamo.html" class="nav-link">Chi Siamo</a>
-
-          <div class="nav-dropdown">
-            <a
-              href="news.html"
-              class="nav-link nav-dropdown-toggle"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              News <span aria-hidden="true">▾</span>
+            <a href="index.html" class="logo">
+                <span class="logo-text">UNI<span class="logo-x">%</span>CENTO</span>
             </a>
-            <div class="nav-dropdown-menu" role="menu" aria-label="Sezioni news">
-              <a href="news.html" class="nav-link" role="menuitem">Tutte</a>
-              <a href="news-unipa.html" class="nav-link" role="menuitem">UniPa</a>
-              <a href="news-ersu.html" class="nav-link" role="menuitem">ERSU</a>
-            </div>
-          </div>
 
-          <a href="drive.html" class="nav-link">Drive</a>
-          <a href="guide.html" class="nav-link">Guide</a>
-          <a href="modulistica.html" class="nav-link">Modulistica</a>
-          <a href="unisciti.html" class="nav-link">Unisciti</a>
-          <a href="contatti.html" class="nav-link">Contatti</a>
-        </nav>
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="chi-siamo.html" class="nav-link">Chi Siamo</a>
 
-        <a href="unisciti.html" class="btn-pill btn-pill-outline header-cta">
-          Tesseramento 2025
-        </a>
-      </div>
+                <div class="nav-dropdown">
+                    <a href="news.html" class="nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        News ▾
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="news.html" class="nav-link">Tutte</a>
+                        <a href="news-unipa.html" class="nav-link">UniPa</a>
+                        <a href="news-ersu.html" class="nav-link">ERSU</a>
+                    </div>
+                </div>
+
+                <a href="drive.html" class="nav-link">Drive</a>
+                <a href="guide.html" class="nav-link">Guide</a>
+                <a href="modulistica.html" class="nav-link">Modulistica</a>
+                <a href="unisciti.html" class="nav-link">Unisciti</a>
+                <a href="contatti.html" class="nav-link">Contatti</a>
+            </nav>
+
+            <a href="unisciti.html" class="btn-pill btn-pill-outline header-cta">Tesseramento 2025</a>
+        </div>
     </header>
 
-
     <main id="top">
-      <!-- HERO -->
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-text">
-            <div class="hero-tag">Dal 2008 a Palermo</div>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <div class="hero-tag">Dal 2008 a Palermo</div>
+                    <h1 class="hero-title">Il futuro si costruisce <span>insieme.</span></h1>
+                    <p class="hero-subtitle">Associazione studentesca UNIPA che rappresenta, supporta e unisce gli studenti dentro e fuori dall’aula.</p>
 
-            <h1 class="hero-title">
-              Il futuro si costruisce <span>insieme.</span>
-            </h1>
+                    <div class="hero-actions">
+                        <a href="unisciti.html" class="btn-primary">Unisciti adesso →</a>
+                        <a href="chi-siamo.html" class="btn-ghost">Scopri di più</a>
+                    </div>
 
-            <p class="hero-subtitle">
-              UNIXCENTO è l'associazione studentesca di UNIPA che rappresenta,
-              supporta e unisce gli studenti dentro e fuori dall’aula.
-            </p>
-
-            <div class="hero-actions">
-              <a href="unisciti.html" class="btn-primary">Unisciti adesso →</a>
-              <a href="chi-siamo.html" class="btn-ghost">Scopri di più</a>
-            </div>
-
-            <div class="hero-meta">
-              <div>🎓 Dal 2008 accanto agli studenti</div>
-              <div>📍 Università degli Studi di Palermo</div>
-            </div>
-          </div>
-
-          <div class="hero-media">
-            <div class="hero-image-placeholder">
-              <span>Studenti UNIPA</span>
-            </div>
-
-            <div class="hero-card-info">
-              <div class="hero-card-title">Community studentesca</div>
-              <div class="hero-card-text">
-                Una rete attiva di studenti che lavorano per migliorare la vita
-                universitaria.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- SEZIONI PRINCIPALI -->
-      <section class="section section-alt">
-        <div class="container">
-          <header class="section-header">
-            <h2 class="section-title">Cosa facciamo</h2>
-            <p class="section-subtitle">
-              UniXcento è rappresentanza, supporto allo studio, informazione e
-              vita associativa.
-            </p>
-          </header>
-
-          <div class="features-grid">
-            <article class="feature-card">
-              <div class="feature-icon">📣</div>
-              <h3 class="feature-title">Rappresentanza</h3>
-              <p class="feature-text">
-                Difendiamo i diritti degli studenti e dialoghiamo con Ateneo ed
-                ERSU.
-              </p>
-              <a href="chi-siamo.html" class="btn-link">Scopri di più</a>
-            </article>
-
-            <article class="feature-card">
-              <div class="feature-icon">📚</div>
-              <h3 class="feature-title">Supporto</h3>
-              <p class="feature-text">
-                Guide, modulistica, sportello studenti e materiali utili.
-              </p>
-              <a href="guide.html" class="btn-link">Vai alle guide</a>
-            </article>
-
-            <article class="feature-card">
-              <div class="feature-icon">📂</div>
-              <h3 class="feature-title">Materiali</h3>
-              <p class="feature-text">
-                Appunti, documenti e risorse condivise per tutti gli studenti.
-              </p>
-              <a href="drive.html" class="btn-link">Apri il Drive</a>
-            </article>
-
-            <article class="feature-card">
-              <div class="feature-icon">🎉</div>
-              <h3 class="feature-title">Eventi</h3>
-              <p class="feature-text">
-                Iniziative culturali, sociali e momenti di aggregazione.
-              </p>
-              <a href="news.html" class="btn-link">Vedi le news</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- NEWS -->
-      <section class="section">
-        <div class="container">
-          <header class="section-header section-header-row">
-            <div>
-              <h2 class="section-title">Ultime news</h2>
-              <p class="section-subtitle">
-                Aggiornamenti su borse di studio, bandi, avvisi e attività.
-              </p>
-            </div>
-            <a href="news.html" class="btn-ghost small">Vedi tutte</a>
-          </header>
-
-          <div class="cards-grid">
-            <article class="news-card">
-              <div class="news-image"><span class="news-chip">ERSU</span></div>
-              <div class="news-content">
-                <h3 class="news-title">Borse di studio ERSU</h3>
-                <p class="news-text">
-                  Pubblicate nuove comunicazioni sulle graduatorie.
-                </p>
-                <div class="news-footer">
-                  <a href="news-ersu.html" class="btn-link">Leggi</a>
+                    <div class="hero-meta">
+                        <div>🎓 Accanto agli studenti</div>
+                        <div>📍 Palermo</div>
+                    </div>
                 </div>
-              </div>
-            </article>
 
-            <article class="news-card">
-              <div class="news-image"><span class="news-chip">UNIPA</span></div>
-              <div class="news-content">
-                <h3 class="news-title">Scadenze piani di studio</h3>
-                <p class="news-text">
-                  Promemoria sulle finestre di compilazione.
-                </p>
-                <div class="news-footer">
-                  <a href="news-unipa.html" class="btn-link">Leggi</a>
+                <div class="hero-media">
+                    <div class="hero-image-placeholder"><span>Community UNIPA</span></div>
+                    <div class="hero-card-info">
+                        <div class="hero-card-title">Rete Attiva</div>
+                        <div class="hero-card-text">Lavoriamo insieme per migliorare la vita universitaria.</div>
+                    </div>
                 </div>
-              </div>
-            </article>
+            </div>
+        </section>
 
-            <article class="news-card">
-              <div class="news-image">
-                <span class="news-chip">uniXcento</span>
-              </div>
-              <div class="news-content">
-                <h3 class="news-title">Assemblea studenti</h3>
-                <p class="news-text">Nuova data e ordine del giorno.</p>
-                <div class="news-footer">
-                  <a href="news.html" class="btn-link">Leggi</a>
+        <section class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Cosa facciamo</h2>
+                    <p class="section-subtitle">Rappresentanza, supporto allo studio e vita associativa.</p>
+                </header>
+
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">📣</div>
+                        <h3 class="feature-title">Rappresentanza</h3>
+                        <p class="feature-text">Difendiamo i diritti degli studenti con Ateneo ed ERSU.</p>
+                        <a href="chi-siamo.html" class="btn-link">Scopri di più</a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3 class="feature-title">Supporto</h3>
+                        <p class="feature-text">Guide, modulistica e sportello studenti.</p>
+                        <a href="guide.html" class="btn-link">Vai alle guide</a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">📂</div>
+                        <h3 class="feature-title">Materiali</h3>
+                        <p class="feature-text">Appunti e documenti condivisi in un unico Drive.</p>
+                        <a href="drive.html" class="btn-link">Apri il Drive</a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">🎉</div>
+                        <h3 class="feature-title">Eventi</h3>
+                        <p class="feature-text">Iniziative culturali e momenti di aggregazione.</p>
+                        <a href="news.html" class="btn-link">Vedi news</a>
+                    </article>
                 </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <header class="section-header section-header-row">
+                    <div>
+                        <h2 class="section-title">Ultime news</h2>
+                        <p class="section-subtitle">Aggiornamenti su borse di studio e bandi.</p>
+                    </div>
+                    <a href="news.html" class="btn-ghost small">Vedi tutte</a>
+                </header>
+
+                <div class="cards-grid">
+                    <article class="news-card">
+                        <div class="news-image"><span class="news-chip">ERSU</span></div>
+                        <div class="news-content">
+                            <h3 class="news-title">Borse di Studio</h3>
+                            <p class="news-text">Aggiornamenti sulle graduatorie e pagamenti.</p>
+                            <div class="news-footer"><a href="news-ersu.html" class="btn-link">Leggi</a></div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image"><span class="news-chip">UNIPA</span></div>
+                        <div class="news-content">
+                            <h3 class="news-title">Piani di Studio</h3>
+                            <p class="news-text">Scadenze e istruzioni per la compilazione.</p>
+                            <div class="news-footer"><a href="news-unipa.html" class="btn-link">Leggi</a></div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image"><span class="news-chip">Community</span></div>
+                        <div class="news-content">
+                            <h3 class="news-title">Assemblea</h3>
+                            <p class="news-text">Partecipa alla prossima riunione associativa.</p>
+                            <div class="news-footer"><a href="news.html" class="btn-link">Leggi</a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
-
-    <!-- FOOTER -->
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>© <span id="yearSpan"></span> UNIXCENTO. Tutti i diritti riservati.</div>
-        <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="contatti.html">Privacy</a>
+        <div class="container footer-inner">
+            <div>© <span id="yearSpan"></span> UNI%CENTO.</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="contatti.html">Contatti</a>
+            </div>
         </div>
-      </div>
     </footer>
 
     <script src="script.js"></script>
-
-  </body>
+</body>
 </html>
